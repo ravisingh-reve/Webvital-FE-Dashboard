@@ -1,0 +1,46 @@
+.DateHeader{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dateFrom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+}
+
+.dateTo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+}
+
+.Graph-table-container{
+    display:flex;
+    flex-direction: row;
+    gap: 30px;
+    margin : auto;
+}
+
+.tableWrapper{
+    border: 1px solid #000000;
+}
+
+.headingWrapper {
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding: 5px 34px;
+}
+
+.dataWrapper{
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding: 0px 34px;
+}
