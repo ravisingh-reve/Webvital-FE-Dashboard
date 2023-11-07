@@ -1,7 +1,9 @@
 {
   "ci": {
     "collect": {
-      "psiStrategy":"desktop"
+      "psiStrategy": {
+        "option": "desktop"
+      }
     }
   }
 }
