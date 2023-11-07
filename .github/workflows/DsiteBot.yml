@@ -20,7 +20,8 @@ jobs:
           temporaryPublicStorage: true
           uploadArtifacts: true
           artifactName: lighthouse-results
-          flags: '--preset desktop'  
+          flags: '--preset desktop'
+          chromeFlags: '--user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.9999.999 Safari/537.36"'
       - name: Download artifacts
         uses: actions/download-artifact@v3
         with:
