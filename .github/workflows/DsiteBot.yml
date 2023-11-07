@@ -20,7 +20,7 @@ jobs:
           temporaryPublicStorage: true
           uploadArtifacts: true
           artifactName: lighthouse-results 
-          flags: '--preset=desktop'
+          configPath: ./lighthouserc.json
       - name: Download artifacts
         uses: actions/download-artifact@v3
         with:
