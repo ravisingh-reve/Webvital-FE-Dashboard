@@ -17,6 +17,9 @@ jobs:
         with:
           urls: |
             'https://www.tatacliq.com/'
+          temporaryPublicStorage: true
+          uploadArtifacts: true
+          artifactName: lighthouse-results 
           flags: '--preset=desktop'
       - name: Download artifacts
         uses: actions/download-artifact@v3
