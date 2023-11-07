@@ -5,16 +5,6 @@
     }
   },
   "settings": {
-    "maxWaitForLoad": 30000,
-    "throttlingMethod": "devtools",
-    "emulatedFormFactor": "desktop",
-    "throttling": {
-      "rttMs": 40,
-      "throughputKbps": 1024,
-      "cpuSlowdownMultiplier": 1,
-      "requestLatencyMs": 50,
-      "downloadThroughputKbps": 8000,
-      "uploadThroughputKbps": 2000
-    }
+    "emulatedFormFactor": "desktop"
   }
 }
